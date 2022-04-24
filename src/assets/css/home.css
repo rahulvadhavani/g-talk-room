@@ -1,0 +1,138 @@
+.name-tag {
+    display: none;
+  }
+  .participant-actions {
+      z-index: 999!important;
+      position: absolute;
+      display: none;
+      left: 5%;
+      top: 5%;
+  }
+  .video-call-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 64px;
+      max-width: 500px;
+      bottom: 15px;
+      position: absolute;
+  }
+  .local-video{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+  }
+  .video-action-button{
+    margin-top: 10px;
+  }
+  .navigation {
+    background-color: #6f04ff;
+  }
+  .video-action-button.endcall {
+    padding-right: 0px;
+  }
+  .modal-content {
+    background-color: var(--chat-background);
+    color: var(--message-text);
+  }
+  .chat-messages.card{
+    background-color: var(--app-background);
+    color: var(--message-text);
+  }
+  .modal-footer,.modal-header {
+    border: none;
+  }
+  .remote-video-controls {
+      padding: 6px 10px;
+      position: absolute;
+      display: flex;
+  }
+  .video-call-wrapper {
+      border-radius: 0px;
+  }
+  .card {
+    border: 5px solid rgb(111 4 255);
+    border-radius: 5px;
+  }
+  .web-cam { 
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  }
+  
+  .remote-video-controls i {
+    width: 32px;
+    margin-left: 2px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: rgba(0, 15, 47, 0.5);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    }
+    .mode-switch {
+      position:initial;
+      margin: auto;
+    }
+    .navbar{
+      background-color: #6f04ff;
+    }
+    .client-view{
+      position: fixed;
+      bottom: 0px;
+      left: 20px;
+    }
+    #room-create, #username-set{
+      color: var(--message-text);
+    }
+    #room-create .btn-info:hover, #username-set .btn-info:hover {
+      color: #ffff!important;
+      background-color: #2b00ff;
+      border: none;
+      
+    }
+    #room-create .btn-info , #username-set .btn-info {
+      color: #ffff!important;
+      background-color: #6f00ff;
+      border: none;
+      transition: all;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+  
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #6f00ff; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #6f00ff; 
+    }
+  
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #6f00ff; 
+    }
+
+    #custom-tooltip {
+      position: absolute;
+      right: -5px;
+      bottom: 50px!important;
+      display: none;
+      margin-left: 40px;
+      padding: 5px 12px;
+      background-color: #000000df;
+      border-radius: 4px;
+      color: #fff;
+  }
+  .visuallyhidden{position:absolute;clip:rect(1px,1px,1px,1px)}

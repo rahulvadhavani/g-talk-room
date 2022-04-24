@@ -1,0 +1,53 @@
+.main-page-content{
+  /* height: 100%; */
+  /* background-color: rgb(163, 199, 242); */
+}
+.navigation {
+  background-color: #6f04ff;
+}
+.mode-switch {
+  position:initial;
+}
+.navbar{
+  background-color: #6f04ff;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #6f00ff; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6f00ff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6f00ff; 
+}
+h1, h2, h3, h4, h5, p{
+  color: var(--message-text);
+}
+.btn-info:hover {
+  color: #ffff!important;
+  background-color: #2b00ff;
+  border: none;
+  
+}
+.btn-info {
+  color: #ffff!important;
+  background-color: #6f00ff;
+  border: none;
+  transition: all;
+}
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
